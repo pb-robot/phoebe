@@ -1,0 +1,3 @@
+<launch>
+  <node name="$(anon p2os)" pkg="p2os_driver" type="p2os_driver" output="screen" args="_port:=/dev/ttyUSB1 _pulse:=1.0" />
+</launch>

@@ -1,0 +1,12 @@
+<launch>
+    <!-- Right arm -->
+    <include file="$(find cyton_gamma_1500_controller)/launch/manager.launch">
+      <arg name="name" value="dxl_tty0" />
+      <arg name="port" value="/dev/ttyUSB1" />
+    </include>
+    <!-- Left arm -->
+    <!--include file="$(find cyton_gamma_1500_controller)/launch/manager.launch">
+      <arg name="name" value="dxl_tty1" />
+      <arg name="port" value="/dev/ttyUSB2" />
+    </include-->
+</launch>

@@ -1,0 +1,12 @@
+<launch>
+  <include file="$(find cyton_gamma_1500_controller)/launch/spawner.launch.xml">
+    <arg name="arm_prefix" value="right_arm_" />
+    <arg name="arm_suffix" value="_joint" />
+    <arg name="port" value="dxl_tty0" />
+  </include>
+  <include file="$(find cyton_gamma_1500_controller)/launch/spawner.launch.xml">
+    <arg name="arm_prefix" value="left_arm_" />
+    <arg name="arm_suffix" value="_joint" />
+    <arg name="port" value="dxl_tty1" />
+  </include>
+</launch>

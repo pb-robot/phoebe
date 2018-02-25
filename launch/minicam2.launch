@@ -1,0 +1,6 @@
+<launch>
+  <node name="$(anon cam1394)" pkg="camera1394" type="camera1394_node" args="_guid:=00b09d0100d68de4 _video_mode:=1280x960_rgb8 _reset_on_open:=true _frame_rate:=60 _iso_speed:=400 _frame_id:=cam2">
+    <remap from="camera/image_raw" to="cam2/image_raw" />
+  </node>
+  <!--node name="$(anon imgview)" pkg="image_view" type="image_view" args="image:=/cam2/image_raw" /-->
+</launch>
