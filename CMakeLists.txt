@@ -17,6 +17,9 @@ find_package(catkin REQUIRED COMPONENTS
   message_generation
   dynamixel_msgs
   cmake_modules
+  urg_node
+  laser_proc
+  urg_c
 )
 
 #find_package(cmake_modules REQUIRED)
