@@ -47,6 +47,9 @@
   <build_depend>cmake_modules</build_depend>
   <build_depend>message_generation</build_depend>
   <build_depend>dynamixel_msgs</build_depend>
+  <build_depend>urg_node</build_depend>
+  <build_depend>laser_proc</build_depend>
+  <build_depend>urg_c</build_depend>
 
   <run_depend>message_runtime</run_depend>
   <run_depend>dynamixel_msgs</run_depend>
